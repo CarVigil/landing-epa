@@ -1,7 +1,7 @@
 
-  # Landing Page for Art Workshop
+  # EPA - Espacio Punto Arte
 
-  This is a code bundle for Landing Page for Art Workshop. The original project is available at https://www.figma.com/design/JkNgFAy8TTTH1ADh2iEhzf/Landing-Page-for-Art-Workshop.
+  This is a code bundle for EPA - Espacio Punto Arte. The original project is available at https://www.figma.com/design/JkNgFAy8TTTH1ADh2iEhzf/Landing-Page-for-Art-Workshop.
 
   ## Running the code
 
