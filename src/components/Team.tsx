@@ -1,23 +1,18 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const teamMembers = [
+  
   {
-    name: "María González",
+    name: "Karen Vigil",
     role: "Directora y Profesora de Arte",
-    image: "https://images.unsplash.com/photo-1600783486675-b0690b0967ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGFydGlzdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NDk2NjI5NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Con más de 15 años de experiencia en enseñanza artística, María lidera nuestro espacio con pasión y creatividad."
-  },
-  {
-    name: "Laura Martínez",
-    role: "Profesora de Costura y Textil",
-    image: "https://images.unsplash.com/photo-1737575655055-e3967cbefd03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHRlYW0lMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjQ4OTUxMDd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Especialista en diseño de moda y técnicas tradicionales de costura, Laura transforma telas en obras de arte."
-  },
-  {
-    name: "Ana Rodríguez",
-    role: "Profesora de Técnicas Mixtas",
     image: "https://images.unsplash.com/photo-1542978415-64bbba6025c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnQlMjBzdXBwbGllcyUyMGNvbG9yZnVsfGVufDF8fHx8MTc2NDkzODIzN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    description: "Artista multidisciplinaria que inspira a sus alumnos a experimentar y descubrir nuevas formas de expresión."
+    description: "Con más de 15 años de experiencia en enseñanza artística, Karen lidera nuestro espacio con pasión y creatividad."
+  },
+  {
+    name: "Evelyn Vigil",
+    role: "Profesora de Costura y Textil",
+    image: "https://images.unsplash.com/photo-1600783486675-b0690b0967ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGFydGlzdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NDk2NjI5NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    description: "Especialista en diseño de moda y técnicas tradicionales de costura, Evelyn transforma telas en obras de arte."
   }
 ];
 
@@ -34,7 +29,7 @@ export function Team() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-20">
           {teamMembers.map((member, index) => (
             <div
               key={index}
